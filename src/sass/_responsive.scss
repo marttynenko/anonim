@@ -35,7 +35,7 @@ RESPONSIVE STYLES ----------------------- */
 @media (max-width: 1300px) {
 
 	.top-screen-img {
-		margin-right: -40px;
+		// margin-right: -40px;
 	}
 
 }//1300
@@ -580,3 +580,12 @@ RESPONSIVE STYLES ----------------------- */
 	}
 
 }//480
+
+
+@media (max-width: 450px) {
+	
+	.chat-faces {
+		display: none;
+		visibility: hidden;
+	}
+}//450
