@@ -141,9 +141,10 @@ jQuery(document).ready(function($){
 		const hash = $(this).attr('href');
 		if ($(hash).length) {
 			let offset = $(hash).offset().top;
-			$('html,body').animate({
-				scrollTop:offset-50
-			},300);
+			// $('html,body').animate({
+			// 	scrollTop:offset-50
+			// },300);
+			document.querySelector(hash).scrollIntoView();
 		}
 	})
 
